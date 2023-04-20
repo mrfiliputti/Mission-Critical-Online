@@ -31,7 +31,7 @@ variables:
 - template: config/configuration.yaml # contains version numbers and global configuration settings
 - name:  'workingDirectory'    # Terraform root working directory
   value: 'src/infra/workload'
-- name:  'azureServiceConnection' # environment specific service connection
+- name:  'azure-msdn-sub' # environment specific service connection
   value: 'alwayson-${{ variables.environment }}-serviceconnection'
 
 - template: config/variables-values-${{ variables.environment }}.yaml # contains environment-specific values (non-secret)
