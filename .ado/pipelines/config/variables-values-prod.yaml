@@ -4,7 +4,7 @@ variables:
 
 # Resource prefix for this environment
 - name:  'prefix'
-  value: 'afprod'          # <===== CHANGE THIS! Must not be longer than 6 characters! Needs to be a unique prefix
+  value: 'ffmcpr'          # <===== CHANGE THIS! Must not be longer than 6 characters! Needs to be a unique prefix
 
 
 # The first value in 'stampLocations' is the primary region used for global services.
